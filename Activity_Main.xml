@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/phoneNum"
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Where are you now?"
+         />
+<Spinner
+        android:id="@+id/spinner1"
+        android:entries="@array/source_arrays" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+     
+   <TextView
+        android:id="@+id/SMSLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Where do you want to go?"
+         />
+
+         <Spinner
+        android:id="@+id/spinner2"
+        android:entries="@array/dest_arrays" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+
+         <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Watozz it!"
+         />
+
+    <Button android:id="@+id/button2"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:text="Speak My Tariff" />
+    
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check My Location"
+         />
+    
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter vehicle number"
+         />   
+     <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+    
+    <RatingBar  
+        android:id="@+id/ratingBar1"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content" />    
+   
+        <Button  
+        android:id="@+id/rbtn"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:text="Rate Driver" />  
+      
+      <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:src="@drawable/new_panic" />
+        
+   
+     </LinearLayout>
